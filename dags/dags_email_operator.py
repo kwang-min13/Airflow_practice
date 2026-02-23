@@ -11,7 +11,7 @@ with DAG(
 ) as dag :
     send_email_task = EmailOperator(
         task_id = 'send_email_task',
-        to = 'nkm1999@naver.com',
+        to = '{메일}',
         subject = "에어플로 성공 메일",
         html_content = '작업 완료'
     )
