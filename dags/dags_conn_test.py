@@ -4,7 +4,7 @@ import pendulum
 import datetime
 
 with DAG(
-    dag_id="dags_bash_operator",
+    dag_id="dags_conn_test",
     schedule=None,
     start_date=pendulum.datetime(2026, 1, 1, tz="Asia/Seoul"),
     catchup=False, # 누락된 구간을 돌릴건지(True 시 누락 부분 한꺼번에 돌림)

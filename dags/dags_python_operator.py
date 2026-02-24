@@ -2,7 +2,7 @@ from __future__ import annotations
 import pendulum
 from airflow.operators.python import PythonOperator
 from airflow.sdk import DAG, chain
-from random
+import random
 
 with DAG(
     dag_id="dags_python_operator",
